@@ -1,0 +1,304 @@
+body{
+    background-image: url(download.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    background-color:darkslategray;
+    color: aquamarine;
+    text-align: center;
+}
+h1{
+    background-color: darkolivegreen;
+    color: bisque;
+    text-align: center;
+    width: 800px
+}
+div.biodata{
+    margin: 30px auto;
+    width: 70%;
+    background-color: rgb(64, 113, 108);
+    opacity: 70;
+    color: rgb(238, 233, 192);
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px
+}
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid cornsilk;
+}
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+div.foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+div.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+div.foto img.bottom{
+    opacity: 0;
+    z-index: 1;
+}
+div.foto:hover img.bottom{
+    opacity: 1;
+    transform: scale(1.1);
+}
+div.makanan{
+    text-align: center;
+    display: flex;
+    gap: 135px;
+}
+img{
+    padding: 15px;
+}
+div.Chagee{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(163, 232, 208);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: rgb(34, 93, 95);
+}
+div.Chagee:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Crepe{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(67, 156, 128);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: azure;
+}
+div.Crepe:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+div.Cold{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(163, 232, 208);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: rgb(34, 93, 95);
+}
+div.Cold:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Crab{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(67, 156, 128);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: azure;
+}
+div.Crab:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+@font-face {
+    font-family:"bitrank" ;
+    src: url("bitrank/Bitrank.otf");
+}
+h3{ 
+    background-color: darkslategray;
+    color: lightpink;
+    text-align: center;
+    font-size: 20pt;
+}
+    div.aktivitas{
+    text-align: center;
+    display: flex;
+    gap: 135px;
+    }
+img{
+    padding: 10px;
+}
+div.Gambar{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(163, 232, 208);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: rgb(34, 93, 95);
+}
+div.Gambar:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Harpa{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(67, 156, 128);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: azure;
+}
+div.Harpa:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+div.Eat{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(163, 232, 208);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: rgb(34, 93, 95);
+}
+div.Eat:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Sleep{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(67, 156, 128);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: azure;
+}
+div.Sleep:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+h4{ 
+    background-color: darkslategray;
+    color: rgb(220, 255, 146);
+    text-align: center;
+    font-size: 20pt;
+}
+ div.membaca{
+    text-align: center;
+    display: flex;
+    gap: 135px;
+    }
+img{
+    padding: 10px;
+}
+div.Eye{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(163, 232, 208);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: rgb(34, 93, 95);
+}
+div.Eye:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Harpot{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(67, 156, 128);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: azure;
+}
+div.Harpot:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+div.Guest{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(163, 232, 208);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: rgb(34, 93, 95);
+}
+div.Guest:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Little{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(67, 156, 128);
+    box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 25px;
+    font-family: "bitrank";
+    color: azure;
+}
+div.Little:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}

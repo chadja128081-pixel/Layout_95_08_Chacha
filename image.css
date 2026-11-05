@@ -1,0 +1,64 @@
+body{
+    background-image: url("Space-Background-Images.jpg");
+}
+
+img.ukuran{
+    height: 500px;
+    width: 300px;
+}
+
+img.lengkungan{
+    height: 500px;
+    width: 300px;
+    border-radius: 20% 0% 20% 0%;
+}
+
+div.kelompok{
+    height: 500px;
+    width: 300px;
+    background-color: dodgerblue;
+    border-radius: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+div.kelompok img{
+    height: 500px;
+    width: 300px;
+    border-radius: 20%;
+    border: 2pc solid rebeccapurple
+
+}
+
+div.efek{
+    height: 500px;
+    width: 300px;
+    background-color: dodgerblue;
+    border-radius: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+div.efek img{
+    height: 500px;
+    width: 300px;
+    border-radius: 20%;
+    border: 2pc solid rebeccapurple
+}
+
+div.efek :hover{
+    height: 550px;
+    width: 530px;
+    background-color: brown;
+    box-shadow: 15px 15px 10px darkblue;
+}
+
+p.external{
+    font-family:"bluewater";
+    font-size: 30pt;
+}
+
+@font-face {
+    font-family:"bluewater" ;
+    src: url("blue_water/Blue\ Water.otf");
+}

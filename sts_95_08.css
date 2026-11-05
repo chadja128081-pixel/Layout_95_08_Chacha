@@ -1,0 +1,166 @@
+body{
+    background-image: url(download\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(255, 200, 128);
+    text-align: center;
+    font-family: "blue";
+    font-size: 40px;
+    font-style:italic;
+    
+}
+h3{
+    color: rgb(255, 200, 128);
+    text-align: center;
+    background-color: rgb(143, 84, 42);
+    font-size: 30px;
+    width: 1200px;
+}
+div.isi1{
+    background-color: rgb(125, 78, 17);
+    color: bisque;
+    padding: 30px ;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto";
+    text-align: justify;
+}
+.isi1:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+@font-face {
+    font-family:"roboto";
+    src: url(roboto/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: "blue" ;
+    src: url(blue_water/Blue\ Water.otf)
+}
+.carousel{
+    overflow: hidden;
+    width: 700px;
+    background-color: rgb(60, 5, 5);
+    padding: 30px 0;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: 20px 35px 35px black;
+}
+.image-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 250px;
+    justify-items: stretch;
+    animation: animation 20s linear infinite;
+}
+.image-container img{
+    width: 200px;
+    height: 270px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 1px solid cornsilk;
+}
+@keyframes animation{
+    to{
+        translate: calc(-4*250px);
+    }
+}
+.isi2{
+    background-color: rgb(125, 78, 17);
+    color: bisque;
+    padding: 30px ;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto";
+    text-align: justify;
+}
+.isi2:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+.isi3{
+    background-color: rgb(161, 124, 75);
+    color: bisque;
+    padding: 30px ;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto";
+    text-align: justify;
+    margin-top: 40px;
+}
+.isi3:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+.isi4{
+    background-color: rgb(142, 84, 9);
+    color: bisque;
+    padding: 30px ;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto";
+    text-align: justify;
+    margin-top: 40px;
+}
+.isi4:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+.images1{
+    margin-top: 20px;
+     position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid cornsilk;
+    display: flex;
+    padding: 20px;
+}
+.images1:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+
+}
+.images2{
+      position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid cornsilk;
+    display: flex;
+    padding: 20px;
+}
+.images2:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
